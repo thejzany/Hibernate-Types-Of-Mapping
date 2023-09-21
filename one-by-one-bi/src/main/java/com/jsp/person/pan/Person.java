@@ -16,7 +16,7 @@ public class Person {
 	private double cno;
 
 	@OneToOne
-	Pan pan;
+	private Pan pan;
 
 	public Pan getPan() {
 		return pan;
